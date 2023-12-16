@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Box Model</title>
+    <style>
+      h2 {
+        /* border-top-style: dotted; 
+        border-bottom-style: solid;
+        border-width: 3px;
+        border-color: rgb(185, 112, 112);*/
+        border: 3px solid rgb(127, 105, 150);
+        padding: 30px 20px;
+        margin: 30px;
+      }
+      #Ang {
+        box-sizing: content-box;
+        border: 3px solid red;
+        padding: 20px;
+        width: 100px;
+        height: 60px;
+        margin: 40px;
+      }
+      #React {
+        box-sizing: border-box;
+        border: 3px solid green;
+        padding: 20px;
+        width: 100px;
+        height: 60px;
+        margin: 40px;
+
+
+
+
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Skill</h2>
+    <p id="Ang">Angular</p>
+    <p id="React">React</p>
+    <p>Java</p>
+  </body>
+</html>
