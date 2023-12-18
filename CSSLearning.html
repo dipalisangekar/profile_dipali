@@ -1,52 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+  
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-<style>
-/* name selector */
-/* p{ 
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS learning</title>
+    <!-- CND link Font Aswesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- CDN link goggle family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto&display=swap" rel="stylesheet">
+    <style>
+      /* name selector */
+       p{ 
     color: cadetblue;
-} */
-/* Id selector */
-#Java{
-    color: cadetblue;font-size: larger;
- }  
-/* Class selector */
- .nondeveloper{
-    color: brown;
-    font-weight: bold;
-}
-/* Combinator selector */
-/* #Java,.nondeveloper{ 
+     font-family: font-family: 'Roboto', sans-serif;
+
+  }
+ 
+       /* Id selector  */
+      #Java {
+        color: cadetblue;
+        font-size: larger;
+      }
+       /* Class selector   */
+      .nondeveloper {
+        color: brown;
+        font-weight: bold;
+      }
+      /* Combinator selector */
+       #Java,.nondeveloper{ 
     background-color: cornflowerblue;
-}*/
-#web {
-    color: rgb(236, 156, 7);
-}
-#learning {
-     text-decoration: underline;
-     font-size: larger;
-     font-weight: bolder;
-     text-transform: capitalize;
-     color: rgb(201, 131, 3);
-     text-align: left;
-     font-style: italic;
-     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-</style>
-</head>
-<body>
-    <h2 style="color: orange; background-color: gray;">Professional Summary</h2>
+  }
+      #web {
+        color: rgb(236, 156, 7);
+      }
+      #learning {
+        text-decoration: underline;
+        font-size: larger;
+        font-weight: bolder;
+        text-transform: capitalize;
+        color: rgb(201, 131, 3);
+        text-align: left;
+        font-style: italic;
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+    #Friends li{
+        list-style-type: lower-alpha;
+    font-family: font-family: 'Roboto', sans-serif;
+
+      }
+   h2{
+    font-family: font-family: 'Poppins', sans-serif;
+   }
+   
+
+   
+   </style>
+  </head>
+  <body>
+    <h2 style="color: orange; background-color: gray">Professional Summary</h2>
     <p>I am UI Developer</p>
     <p id="Java">I am Java Developer</p>
-    <p class="nondeveloper"> I am Test Engineer</p>
+    <p class="nondeveloper">I am Test Engineer</p>
     <p class="nondeveloper">I am Support Engineer</p>
     <h2>Skills</h2>
-    <p style="font-weight:bolder;">HTML and CSS</p>
+    <p style="font-weight: bolder">HTML and CSS</p>
     <p>JavaScript</p>
-   <p >I am very good in <span id="web">Web development </span> and DSA</p>
-   <p id="learning">I am learning CSS ahd enjoying too</p>
-</body>
+    <p>I am very good in <span id="web">Web development </span> and DSA</p>
+    <p id="learning">I am learning CSS ahd enjoying too</p>
+    <h2>List of Friends</h2>
+    <ol id="Friends">
+      <li>Jenny</li>
+      <li>Bill</li>
+      <li>Stew</li>
+      <li>Elon</li>
+    </ol>
+    <h2>books I read</h2>
+    <ol id="friends">
+      <li>Autobighraphy id Yogi</li>
+      <li>Automic Habit</li>
+      <li>Seven Habits</li>
+      <li>Ikagai</li>
+    </ol>
+    <i class="fa fa-user-circle-o" aria-hidden="true"></i><span>Dipali</span>
+  </body>
 </html>
